@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  OPENAI_API_KEY: ${{ vars.OPENAI_API_KEY }}
 jobs:
   run-python:
     runs-on: ubuntu-latest
