@@ -1,0 +1,26 @@
+{
+    "data": {
+        "idRemitente": "90000000000000",
+        "nombreUsuario": "Reclutalio DEMO",
+        "mensaje": {
+            "titulo": "Reclutalia from step",
+            "cuerpo": "Bienvenido a Reclutalia"
+        },
+        "configuracionIU": {
+            "tamanoFuentes": {
+                "titulo": 1,
+                "cuerpo": 2
+            }
+        },
+        "frecuenciaNotificacion": {
+            "tipoNotificacionId": 1,
+            "frecuenciaId": 1,
+            "cronExpresion": null,
+            "fechaFin": null,
+            "fechaInicio": null
+        },
+        "destinatarios": [
+            "10040126","10033973"
+        ]
+    }
+}
