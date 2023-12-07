@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  OPENAI_API_KEY: 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
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 jobs:
   build:
 
